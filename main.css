@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(245, 245, 236);
+  margin: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  margin-top: 18px;
+}
+
+.link a {
+  color: black;
+  padding: 15px 17px;
+  text-align: left;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.get-started {
+  margin: px;
+text-align:center;
+}
+
+.services {
+  margin: 10px 40px;
+}
+
+.service-item > h5 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.service-item > p {
+  margin-top: 2px;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan-item {
+  width: 30%;
+  border: 1px solid rgb(179, 173, 173);
+  background-color: #fcfbfb;
+  text-align: center;
+}
+
+.plan-item-header {
+  text-align: center;
+  background-color: rgb(226, 226, 226);
+  margin-top: 0;
+  padding: 4px;
+  margin-bottom: 0;
+}
+
+.select{
+  text-align: center;
+}
+
+.plan-item > p {
+  text-align: center;
+}
+
+.plan-item-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.plan-item-list > ul {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+
+.Footer {
+text-align: right;
+ 
+}
